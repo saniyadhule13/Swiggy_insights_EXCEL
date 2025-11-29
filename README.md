@@ -1,67 +1,70 @@
 🧡 Swiggy Insights – Excel Dashboard
 
-This project presents an interactive Swiggy Insights Dashboard built using Microsoft Excel, designed to analyze restaurant performance, customer ratings, pricing trends, and food preferences across major Indian cities.
-The dashboard helps users quickly understand Swiggy’s data through clean visualizations, slicers, and interactive KPIs.
+This project presents a fully interactive Swiggy Insights Dashboard built in Microsoft Excel, showcasing key business insights from food delivery and restaurant performance data.
+The dashboard enables users to explore multiple cities, restaurant types, and rating categories using dynamic slicers and KPIs.
 
 🔍 Project Overview
 
-The Swiggy Insights Dashboard provides a detailed breakdown of:
+The dashboard provides deep insights into:
 
-Total restaurants across selected cities
+Total Restaurants across selected cities
 
-Average customer rating
+Average Rating of restaurants
 
-Average food price
+Average Price of food items
 
-Average delivery time
+Average Delivery Time
 
-Top food categories ordered
+Top 5 Food Types preferred by customers
 
-Areas with the highest restaurant concentration
+Top 10 Areas with Maximum Restaurants
 
-Most expensive areas based on average pricing
+Most Expensive Areas based on Avg. Price
 
-State-wise average rating distribution
+State-wise Average Rating Heatmap
 
-The dashboard is built with a combination of Pivot Tables, Pivot Charts, Slicers, and custom formatting to create a smooth and dynamic user experience.
+These insights help understand customer behavior, restaurant concentration, pricing trends, and delivery patterns.
 
 ✨ Key Features
-📊 1. KPI Summary
+📌 1. Interactive KPIs
 
-Total Restaurants: Quick count of all restaurant entries
+Total Restaurants
 
-Avg. Rating: Weighted average customer rating
+Avg. Rating
 
-Avg. Price: Average cost for ordering
+Avg. Price
 
-Avg. Delivery Time: Estimated time across all orders
+Avg. Delivery Time
 
-🎛️ 2. Interactive Slicers
+🎛️ 2. Multi-Level Slicers
 
-Filter data by City
+City (Chennai, Delhi, Hyderabad, Kolkata, Mumbai, Pune)
 
-Filter by Restaurant Type (Veg / Non-Veg)
-These slicers update the entire dashboard smoothly and instantly.
+Restaurant Type (Veg / Non-Veg)
+
+Rating Segment (e.g., 100+ ratings)
+
+These slicers instantly update all charts for real-time insights.
 
 🍽️ 3. Top 5 Food Types
 
-Shows the percentage share of the most preferred food categories on Swiggy using a donut chart.
+A 3D pie chart showing the most preferred categories like Chinese, Fast Food, Bakery, Desserts, etc.
 
 📍 4. Top 10 Areas with Most Restaurants
 
-Bar chart showing areas with the highest restaurant density.
+Bar chart showing restaurant density across key metro locations.
 
 💰 5. Avg-Price Wise Most Expensive Areas
 
-Helps identify premium zones based on the average menu pricing.
+Identifies premium zones with high average pricing.
 
-🗺️ 6. Rating Map – State Wise
+🗺️ 6. State-wise Rating Map
 
-A geographic visualization of average restaurant ratings across different Indian states.
+A filled map chart displaying average restaurant ratings across Indian states.
 
-🛠️ Tools & Skills Used
+🛠️ Tools & Techniques Used
 
-Microsoft Excel
+MS Excel:
 
 Pivot Tables
 
@@ -75,55 +78,28 @@ Conditional Formatting
 
 Chart Formatting
 
-Data Visualization
+Data Analysis & Visualization
 
 Dashboard Designing
 
-Exploratory Data Analysis (EDA)
+📁 Dataset Information
 
-📁 Dataset
+Includes:
 
-The dataset includes:
+City, Area
 
-Restaurant name
-
-Location & city
+Price
 
 Ratings
 
 Delivery time
 
-Pricing
+Restaurant Type
 
-Food type
-(Data source: Publicly available sample Swiggy-style dataset)
+Food Type
 
-🎯 Objective
+(Dataset is based on publicly available Swiggy-style sample data for analysis & learning.)
 
-To transform raw Swiggy food delivery data into meaningful business insights that help understand customer behavior, pricing variation, restaurant distribution, and overall platform performance using Excel-based analytics.
+🎯 Project Objective
 
-🚀 How to Use This Dashboard
-
-Download the Excel file from the repository
-
-Open it in Microsoft Excel (preferably 2019 or later)
-
-Use slicers (City, Restaurant Type) for dynamic filtering
-
-Explore KPIs, charts, and interactive visuals
-
-📌 Project Purpose
-
-This dashboard showcases the skills required for:
-
-Data Analysis
-
-BI Dashboard Design
-
-Business Insights Interpretation
-
-Excel-based analytics
-
-Suitable for Data Analyst, Business Analyst, and MIS Executive roles.
-
-
+To convert raw food delivery data into meaningful business insights using Excel-based analytics, making it useful for decision-making and performance comparisons across cities.
